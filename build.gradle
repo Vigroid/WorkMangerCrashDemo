@@ -20,7 +20,6 @@ buildscript {
                 'material'         : "com.google.android.material:material:$material",
                 'constraintLayout' : "androidx.constraintlayout:constraintlayout:$constraintLayout",
                 'workManager'      : "androidx.work:work-runtime-ktx:$workManager",
-                'workManagerKtx'   : "androidx.work:work-runtime-ktx:$workManager",
                 // Test
                 'junit'            : "junit:junit:$jUnit",
                 'androidxTestJunit': "androidx.test.ext:junit:$androidxTest",
