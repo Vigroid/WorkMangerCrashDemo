@@ -29,7 +29,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onStop() {
         super.onStop()
-        WorkManager.getInstance(applicationContext).cancelUniqueWork(UPLOAD_UNIQUE_NAME)
         // update
         WorkManager.getInstance(applicationContext).enqueueUniqueWork(
             UPLOAD_UNIQUE_NAME,
